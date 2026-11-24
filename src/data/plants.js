@@ -1,0 +1,133 @@
+const plantsData = [
+  // ---- Foliage (daun hiasan) ----
+  {
+    name: 'Snake Plant',
+    image: '/plants/snake-plant.svg',
+    description: 'Tough, upright leaves that purify the air and thrive on neglect.',
+    cost: 35,
+    category: 'Foliage',
+  },
+  {
+    name: 'Peace Lily',
+    image: '/plants/peace-lily.svg',
+    description: 'Elegant white blooms with glossy dark-green foliage.',
+    cost: 28,
+    category: 'Foliage',
+  },
+  {
+    name: 'Spider Plant',
+    image: '/plants/spider-plant.svg',
+    description: 'Arching striped leaves; easy to grow and pet-friendly.',
+    cost: 22,
+    category: 'Foliage',
+  },
+  {
+    name: 'Money Tree',
+    image: '/plants/money-tree.svg',
+    description: 'Braided trunk believed to bring luck and prosperity.',
+    cost: 45,
+    category: 'Foliage',
+  },
+  {
+    name: 'Rubber Plant',
+    image: '/plants/rubber-plant.svg',
+    description: 'Bold, glossy leaves that make a strong indoor statement.',
+    cost: 30,
+    category: 'Foliage',
+  },
+  {
+    name: 'Boston Fern',
+    image: '/plants/boston-fern.svg',
+    description: 'Lush, feathery fronds perfect for hanging baskets.',
+    cost: 25,
+    category: 'Foliage',
+  },
+  // ---- Aromatic (wangian) ----
+  {
+    name: 'Lavender',
+    image: '/plants/lavender.svg',
+    description: 'Calming purple blooms with a soothing fragrance.',
+    cost: 18,
+    category: 'Aromatic',
+  },
+  {
+    name: 'Jasmine',
+    image: '/plants/jasmine.svg',
+    description: 'Sweetly scented white flowers that perfume any room.',
+    cost: 20,
+    category: 'Aromatic',
+  },
+  {
+    name: 'Gardenia',
+    image: '/plants/gardenia.svg',
+    description: 'Creamy white blooms with a rich, classic perfume.',
+    cost: 26,
+    category: 'Aromatic',
+  },
+  {
+    name: 'Mint',
+    image: '/plants/mint.svg',
+    description: 'Fresh, vigorous herb — great for tea and cocktails.',
+    cost: 12,
+    category: 'Aromatic',
+  },
+  {
+    name: 'Rosemary',
+    image: '/plants/rosemary.svg',
+    description: 'Fragrant Mediterranean herb, perfect for cooking.',
+    cost: 15,
+    category: 'Aromatic',
+  },
+  {
+    name: 'Eucalyptus',
+    image: '/plants/eucalyptus.svg',
+    description: 'Silvery-blue leaves with a crisp, refreshing scent.',
+    cost: 24,
+    category: 'Aromatic',
+  },
+  // ---- Succulents ----
+  {
+    name: 'Aloe Vera',
+    image: '/plants/aloe-vera.svg',
+    description: 'Soothing gel-filled leaves; the ultimate first-aid plant.',
+    cost: 16,
+    category: 'Succulents',
+  },
+  {
+    name: 'ZZ Plant',
+    image: '/plants/zz-plant.svg',
+    description: 'Glossy, waxy leaves that tolerate almost any light.',
+    cost: 32,
+    category: 'Succulents',
+  },
+  {
+    name: 'Cactus',
+    image: '/plants/cactus.svg',
+    description: 'A charming desert classic that needs water only occasionally.',
+    cost: 14,
+    category: 'Succulents',
+  },
+  {
+    name: 'Jade Plant',
+    image: '/plants/jade-plant.svg',
+    description: 'Plump, coin-shaped leaves symbolizing good fortune.',
+    cost: 21,
+    category: 'Succulents',
+  },
+  {
+    name: 'Ponytail Palm',
+    image: '/plants/ponytail-palm.svg',
+    description: 'A quirky swollen trunk that stores water for months.',
+    cost: 38,
+    category: 'Succulents',
+  },
+  {
+    name: 'Cast Iron Plant',
+    image: '/plants/cast-iron-plant.svg',
+    description: 'Practically unkillable — lives happily in deep shade.',
+    cost: 29,
+    category: 'Succulents',
+  },
+];
+
+export default plantsData;

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#f3faf1"/>
+      <stop offset="100%" stop-color="#dcf0d8"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="rgb(48,166,146)"/>
+      <stop offset="100%" stop-color="rgb(30,122,107)"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bg)" rx="16"/>
+  <ellipse cx="150" cy="268" rx="86" ry="14" fill="#00000014"/>
+  <path d="M150 262 L98 262 L110 190 L190 190 Z" fill="#c97b5d"/>
+  <path d="M98 262 L150 262 L150 190 L190 190 Z" fill="#a35a41" opacity="0.35"/>
+  <rect x="92" y="178" width="116" height="18" rx="9" fill="#a35a41"/>
+  <path d="M150 190 C150 130 150 110 150 92" stroke="rgb(48,166,146)" stroke-width="7" fill="none"/>
+  <ellipse cx="112" cy="120" rx="40" ry="16" fill="url(#leaf)" transform="rotate(-35 112 120)"/>
+  <ellipse cx="188" cy="120" rx="40" ry="16" fill="url(#leaf)" transform="rotate(35 188 120)"/>
+  <ellipse cx="150" cy="70" rx="20" ry="34" fill="url(#leaf)"/>
+  <ellipse cx="122" cy="160" rx="30" ry="13" fill="url(#leaf)" transform="rotate(-18 122 160)"/>
+  <ellipse cx="178" cy="160" rx="30" ry="13" fill="url(#leaf)" transform="rotate(18 178 160)"/>
+  <circle cx="150" cy="70" r="7" fill="#ffffff55"/>
+</svg>
